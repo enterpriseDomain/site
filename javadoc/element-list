@@ -1,6 +1,7 @@
 org.enterprisedomain.classmaker
 org.enterprisedomain.classmaker.core
 org.enterprisedomain.classmaker.edit.command
+org.enterprisedomain.classmaker.emfstore
 org.enterprisedomain.classmaker.impl
 org.enterprisedomain.classmaker.jobs
 org.enterprisedomain.classmaker.jobs.codegen
