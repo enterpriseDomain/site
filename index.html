@@ -45,7 +45,7 @@
       <h3>
 <a id="welcome-to-classmaker" class="anchor" href="#welcome-to-ClassMaker" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to ClassMaker!</h3>
 <p>ClassMaker is a library for creating classes at runtime. Taking&nbsp;a&nbsp;dynamic&nbsp;<a href="http://download.eclipse.org/modeling/emf/emf/javadoc/2.11/org/eclipse/emf/ecore/EPackage.html">EPackage</a>&nbsp;as an input, 
-  it invokes the generator (currently Ecore default), then PDE exporter, then installs the result into the host OSGi container and supplies the EPackage class, loaded into its own OSGi runtime, to a client code.
+  it invokes the generator (currently Ecore default), then PDE exporter, then installs the result into the host OSGi container and supplies the EPackage class, loaded on the fly into its own OSGi runtime, making available to a client code.
 Here is a <a href="javadoc/">Javadoc</a>.
 </p>
 <p>
