@@ -5,7 +5,8 @@ body{
 }
 
 .ribbon{
-  position: absolute; 
+  position: absolute;
+  z-index: 9;
   top: 42px;
   width: 200px;
   padding: 1px 0;
